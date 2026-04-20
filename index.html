@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTERRA</title>
+  <link rel="shortcut icon" href="img/Alterra_logo.webp" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/vid.js"></script>
+</head>
+
+<body>
+  <div id="all-wrap">
+    <h1>
+      <a href="./">
+        <img src="img/Alterra_logo.webp" alt="">
+        <div class="blind">tvN</div>
+      </a>
+    </h1>
+
+    <div id="all-wrap">
+      <video autoplay muted loop playsinline class="main-bg-video">
+        <source src="img/vid/idiot.mp4" type="video/mp4">
+      </video>
+
+      <button class="menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <nav class="side-menu">
+        <button class="close-menu">X</button>
+        <ul class="gnb">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CAMPAIGN</a></li>
+          <li><a href="#">SUPPORT</a></li>
+        </ul>
+      </nav>
+
+      <div class="title-box">
+        <h2>
+          THE LAST FRONTIER: <br>
+          Protect Our
+          <span>Blue</span>
+        </h2>
+
+      </div>
+
+      <!-- 동영상 메뉴 -->
+      <figure class="vid-wrap">
+        <article>
+          <h3>SeaWeed</h3>
+          <video muted loop>
+            <source src="img/vid/Seaweed.mp4" type="video/mp4">
+          </video>
+          <h4>Temporal range: Lutetian–Present</h4>
+          <p>
+            Kelps are large brown algae or seaweeds that make up the order Laminariales. There are about 30
+            genera.Despite its appearance and use of photosynthesis in chloroplasts, kelp is not a plant but a
+            stramenopile.
+          </p>
+        </article>
+
+        <article>
+          <h3>Gentle Giants</h3>
+          <video muted loop>
+            <source src="img/vid/Whale.mp4" type="video/mp4">
+          </video>
+          <h4>Relief from the Burden</h4>
+          <p>
+            고래의 몸에 무겁게 달라붙은 따개비는 피부병과 저항을 유발합니다. 잠수부들의 섬세한 손길은 고래에게 다시 자유로운 헤엄을 선물하는 인도주의적 구조 활동입니다.
+          </p>
+        </article>
+
+        <article>
+          <h3>Unseen Chains</h3>
+          <video muted loop>
+            <source src="img/vid/Seal.mp4" type="video/mp4">
+          </video>
+          <h4>Breaking the Cycle of Pollution</h4>
+          <p>
+            인간이 버린 폐그물과 플라스틱은 바다사자의 숨통을 조이는 족쇄가 됩니다. 우리는 바다사자의 몸에서 오염물을 제거하며, 우리가 만든 잘못을 결자해지(結者解之)하고 있습니다.
+          </p>
+        </article>
+
+        <article>
+          <h3>Silent SOS</h3>
+          <video muted loop>
+            <source src="img/vid/Savewhale.mp4" type="video/mp4">
+          </video>
+          <h4>A Collaborative Rescue</h4>
+          <p>
+            거대한 고래가 인간의 그물에 갇혀 사투를 벌이고 있습니다. 생명의 위협 앞에 종을 뛰어넘은 협력으로 그물을 끊어내고, 바다의 주인이 다시 깊은 심해로 돌아갈 수 있도록 돕습니다.
+          </p>
+        </article>
+      </figure>
+
+      <div class="mid-cont">
+        <div class="mid-inner">
+          <h2>
+           
+          </h2>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-inner">
+          <nav class="fnb">
+            <a href="#">Sitemap</a>
+            <a href="#">Community</a>
+            <a href="#">Contact</a>
+          </nav>
+          <address>
+            Copyright &copy;
+            <a href="./">ALTERRA</a>
+          </address>
+        </div>
+      </footer>
+
+      <!-- 모달(Modal) 상태 | 동영상 재생 -->
+      <figure class="modal">
+        <button class="close-btn">X</button>
+        <div class="vid-cont">
+          <video muted loop>
+            <source src="img/vid/Seaweed.mp4" type="video/mp4">
+          </video>
+          <video muted loop>
+            <source src="img/vid/Whale.mp4" type="video/mp4">
+          </video>
+          <video muted loop>
+            <source src="img/vid/Seal.mp4" type="video/mp4">
+          </video>
+          <video muted loop>
+            <source src="img/vid/Savewhale.mp4" type="video/mp4">
+          </video>
+        </div>
+      </figure>
+    </div>
+</body>
+
+</html>
